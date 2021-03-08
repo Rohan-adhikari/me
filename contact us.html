@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>M.L.M.E.A contact-us</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+<body>
+
+	<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v10.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution="setup_tool"
+        page_id="110018150427060">
+      </div>
+
+
+	<section class="contact">
+		<div class="content">
+			<h2>Contact Us</h2>
+			<p>
+				Our Contact service open from 9:00 to 4:00 clock
+			</p>
+		</div>
+		<div class="container">
+			<div class="contactInfo">
+			   <div class="box">
+			   	<div class="icon"> <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+			   	<div class="text">
+			   		<h3>Address</h3>
+						<p>Ratuwamai Muncipalitiy-4<br>
+						Aambari</p>	
+			   	</div>
+			   </div>
+			   <div class="box">
+			   	<div class="icon"><a href="tel:9852029097"><i class="fa fa-phone" aria-hidden="true"></i></a></div><br>
+			   	<div class="text">
+			   		<h3>Phone</h3>
+			   		<h2>V.P</h2>
+			   		<div class="content">
+						
+							
+								<a href="tel:9852029097"><i class="fa fa-phone" aria-hidden="true"></i>9852029097</a><br>
+							<a href="tel:9814325847"><i class="fa fa-phone" aria-hidden="true"></i>9814325847</a>
+
+							
+						</div>
+							<br><h2>P</h2>
+
+						
+							<div class="content">
+								<a href="tel:9842059519"><i class="fa fa-phone" aria-hidden="true"></i>9842059519</a><br>
+							<a href="tel:9807078269"><i class="fa fa-phone" aria-hidden="true"></i>9807078269</a>
+                           
+                           </div>
+
+			   	</div>
+			   	
+			   </div>	
+			   <div class="box">
+			   	<div class="icon"><a href="mailto:adhikarykhem@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></div>
+			   	<div class="text">
+			   		<h3>Gmail</h3>
+						<p>adhikarykhem@gmail.com
+						</p>
+			   	</div>
+			   </div>		
+			
+		</div>
+	</div>
+
+	</section>
+</body>
+</html>
